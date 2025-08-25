@@ -62,4 +62,9 @@ h1::after {
 
 #generate-btn:hover {
     transform: translateY(-2px); /* Button bounces up 2px when you hover */
+    box-shadow: rgba(102, 126, 234, 0.3);
+}
+
+#generate-btn:active {
+    transform: translateY(0px);  /* The pseudo active class them pushes it back down to normal when you click it */
 }
