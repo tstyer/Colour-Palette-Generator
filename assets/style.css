@@ -85,3 +85,16 @@ h1::after {
 .colour-box:hover {
     transform: translateY(-5px);
 }
+
+.colour {
+    height: 120px;
+    cursor: pointer;
+}
+
+.colour-info {
+    background-color: white;
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
