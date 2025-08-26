@@ -74,3 +74,14 @@ h1::after {
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax 130px, 1fr);
 }
+
+.colour-box {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform(0.2s);
+}
+
+.colour-box:hover {
+    transform: translateY(-5px);
+}
